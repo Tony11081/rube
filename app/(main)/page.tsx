@@ -36,59 +36,12 @@ export default async function HomePage() {
         </Container>
       </div>
 
-<<<<<<< HEAD
-      {/* Popular apps section */}
-      <section className="bg-white dark:bg-zinc-900 py-12">
-        <div className="text-center">
-          <p className="text-sm text-zinc-500 uppercase tracking-wider mb-4 dark:text-zinc-400">
-            Popular app integrations
-          </p>
-          <div className="flex flex-wrap justify-center gap-6 grayscale opacity-70">
-            <div className="flex items-center justify-center h-6">
-              <span className="text-xl">📧 Gmail</span>
-            </div>
-            <div className="flex items-center justify-center h-6">
-              <span className="text-xl">💬 Slack</span>
-            </div>
-            <div className="flex items-center justify-center h-6">
-              <span className="text-xl">📝 Notion</span>
-            </div>
-            <div className="flex items-center justify-center h-6">
-              <span className="text-xl">📺 YouTube</span>
-            </div>
-            <div className="flex items-center justify-center h-6">
-              <span className="text-xl">🗂️ Google Drive</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats section */}
-      <section className="border-t border-zinc-200 bg-white py-12 dark:bg-zinc-900 dark:border-zinc-800">
-        <StatsCounter />
-      </section>
-
-      {/* Feature Intro section */}
-      <FeatureIntro />
-
-      {/* Testimonials section */}
-      <Testimonials />
-
-      {/* Blog and Newsletter section */}
-      <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-6 pt-6">
-            <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-              <span className="mr-2 text-xl">📚</span>
-              <span>Workflows</span>
-=======
       {/* Features Section */}
       <section className="bg-zinc-50 dark:bg-zinc-900/50 py-16">
         <Container>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-4xl">
               Why Choose Our Digital Store?
->>>>>>> 110d17e5fa24b5c08e141998efc75b1235ad1913
             </h2>
             <p className="mt-4 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
               Professional resources designed to save you time and boost productivity.
@@ -190,32 +143,19 @@ export default async function HomePage() {
               <Newsletter />
               <div className="rounded-xl border border-zinc-100 p-6 dark:border-zinc-700/40">
                 <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-<<<<<<< HEAD
-                  <span className="mr-2 text-xl">🛠️</span>
-                  <span>Toolbox</span>
-                </h2>
-                <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  Copy-ready prompt templates, scripts, and configuration files to boost productivity.
-=======
                   <span className="mr-2 text-xl">🛍️</span>
                   <span>Start Shopping</span>
                 </h2>
                 <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                   Browse our collection of premium digital resources and templates.
->>>>>>> 110d17e5fa24b5c08e141998efc75b1235ad1913
                 </p>
                 <div className="mt-6">
                   <Link
                     href="/store"
                     className="text-sm font-medium text-lime-600 transition hover:text-lime-700 dark:text-lime-400 dark:hover:text-lime-300"
                   >
-<<<<<<< HEAD
-                    Browse All Tools →
-                  </a>
-=======
                     Visit Store →
                   </Link>
->>>>>>> 110d17e5fa24b5c08e141998efc75b1235ad1913
                 </div>
               </div>
             </aside>
