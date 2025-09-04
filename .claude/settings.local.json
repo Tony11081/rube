@@ -27,7 +27,8 @@
       "Bash(pnpm install:*)",
       "Bash(pnpm run:*)",
       "Bash(./switch-to-minimal.sh:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }
