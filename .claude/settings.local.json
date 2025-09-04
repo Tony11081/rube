@@ -25,7 +25,9 @@
       "Bash(touch:*)",
       "Bash(mkdir:*)",
       "Bash(pnpm install:*)",
-      "Bash(pnpm run:*)"
+      "Bash(pnpm run:*)",
+      "Bash(./switch-to-minimal.sh:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }
