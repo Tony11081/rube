@@ -24,6 +24,10 @@
     "postcss": "8.4.35",
     "@clerk/nextjs": "4.29.9",
     "framer-motion": "11.0.8",
-    "@zolplay/utils": "1.0.0"
+    "@zolplay/utils": "1.0.0",
+    "@headlessui/react": "1.7.18",
+    "next-themes": "0.2.1",
+    "react-wrap-balancer": "1.1.0",
+    "@tanstack/react-query": "5.25.0"
   }
 }
