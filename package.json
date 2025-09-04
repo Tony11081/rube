@@ -2,6 +2,13 @@
   "name": "cali.so",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "volta": {
+    "node": "20.18.0"
+  },
   "scripts": {
     "build": "next build --no-lint",
     "db:generate": "drizzle-kit generate:pg",
