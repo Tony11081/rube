@@ -1,17 +1,17 @@
 # Use Node.js 20
 FROM node:20-alpine
 
-# Install pnpm
-RUN corepack enable pnpm
+# Install pnpm globally
+RUN npm install -g pnpm
 
 # Set working directory
 WORKDIR /app
 
-# Copy package files
+# Copy package files first for better caching
 COPY package.json pnpm-lock.yaml ./
 
-# Install dependencies
-RUN pnpm install --frozen-lockfile
+# Install dependencies with frozen lockfile
+RUN pnpm install --frozen-lockfile --production=false
 
 # Copy source code
 COPY . .
