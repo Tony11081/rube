@@ -1,0 +1,12 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /lander
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /lander
+
+# Sitemap location
+Sitemap: https://kkgool.cc/sitemap.xml 

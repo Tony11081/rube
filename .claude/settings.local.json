@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(curl:*)",
+      "Bash(export GIT_ASKPASS=echo)",
+      "Bash(git bundle create:*)",
+      "Bash(npm run lint)",
+      "Bash(npm install)",
+      "Bash(find:*)",
+      "Bash(npm run build:*)",
+      "Bash(rm:*)",
+      "Bash(npx next build:*)",
+      "Bash(SKIP_ENV_VALIDATION=1 npx next build --no-lint)",
+      "Bash(npm install:*)",
+      "Bash(SKIP_ENV_VALIDATION=1 npm run build)",
+      "Bash(grep:*)",
+      "Bash(touch:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}

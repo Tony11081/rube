@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm turbo build",
+  "github": {
+    "silent": true
+  },
+  "env": {
+    "NEXT_SKIP_API_ROUTES": "1"
+  }
+}
