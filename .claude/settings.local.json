@@ -23,7 +23,9 @@
       "Bash(SKIP_ENV_VALIDATION=1 npm run build)",
       "Bash(grep:*)",
       "Bash(touch:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm run:*)"
     ],
     "deny": []
   }
